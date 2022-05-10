@@ -9,7 +9,7 @@
     "web": "expo start --web",
     "eject": "expo eject",
     "api": "json-server --host 192.168.0.15 --watch db.json",
-    "test": "jest --watch --coverage=false", 
+    "test": "jest --watch --coverage=false",
     "testFinal": "jest"
   },
   "dependencies": {
@@ -29,7 +29,10 @@
     "react-native-web": "0.17.1"
   },
   "devDependencies": {
-    "@babel/core": "^7.12.9"
+    "@babel/core": "^7.12.9",
+    "@testing-library/react-hooks": "^8.0.0",
+    "@testing-library/react-native": "^9.1.0",
+    "react-test-renderer": "^17.0.1"
   },
   "private": true,
   "jest": {
